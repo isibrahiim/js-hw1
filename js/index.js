@@ -3,8 +3,8 @@ let name = prompt("plz enter your name");
 console.log("hello ", name);
 
 // // 2. Ask the user the year of his birth, count how old he is and print the result. Indicate the current year in the code as a constant.
-let age = prompt("plz enter your birth day only a year");
-let currentYear = 2020;
+let age = prompt("plz enter  year of birth ");
+const currentYear = 2020;
 let count = currentYear - age;
 console.log("your age is:", count);
 
@@ -27,7 +27,7 @@ console.log("you will reach there in :", speed, "km/hr");
 
 // //6.Implement a currency converter. The user enters dollars, the program translates into euros. The exchange rate is stored in a constant.
 let dollar = prompt("plz enter the dollar amount?");
-let rate = 0.874406; // 1$
+const rate = 0.874406; // 1$
 let euro = dollar * rate;
 console.log(dollar, "dollar: = ", euro);
 
